@@ -1011,6 +1011,8 @@ body{
     border:2px solid #C16DE9;
     border-radius: 4%;
     box-shadow: 0px 0px 10px white;
+    display:flex;
+    flex-direction: column;
 }
 
 #project img{
@@ -1019,17 +1021,18 @@ body{
     margin:9%; 
     height:60%;
     width:80%;
-    padding:0.2em;
+    padding:0.1em;
+    border:1px solid white;
 }
 
 #project-name
 {
-    margin-left: 40%;
     font-size: x-large;
     font-family: Quicksand;
     text-align: center;
     color:white;
     text-align: center;
+    margin-top:8px;
 }
 
 #code-button
