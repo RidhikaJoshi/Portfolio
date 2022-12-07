@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>RIDHIKA JOSHI</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="port.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3"></script>
     <script src="https://kit.fontawesome.com/d9a70494db.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
@@ -15,6 +17,7 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
+        <img src="favicon-32x32.png">
             <ul type="none" class="horizontal-list">
                 <li>
                     <span ><i class="fa-solid fa-house-user"></i>
@@ -33,8 +36,8 @@
                     <a href="#education-section">Education</a></span>
                 </li>
                 <li >
-                    <span><i class="fa-solid fa-file"></i>
-                    <a href="#resume-section">Resume</a></span>
+                    <span><i class="fa-solid fa-laptop-code"></i>
+                    <a href="#Project-section">Projects</a></span>
                 </li>
                 <li >
                     <span><i class="fa-sharp fa-solid fa-envelope"></i>
@@ -44,15 +47,21 @@
     </header>
 
     <br>
-    <br>
     <section id="home-section" class="general"  style="color:white">
         
 
         <p style="padding-top:3em;">Hi There!</p>
         <span id="name">I'm <span class="common">RIDHIKA JOSHI</span>.</span>
         <p>|&nbsp; Programmer&nbsp; |&nbsp; Developer &nbsp;| &nbsp;Explorer &nbsp;|</p>
-        <br>
-        <span id="more-about-me"><a href="#about-section">More About Me!</a></span>
+        <!-- <span id="more-about-me"><a href="https://linktr.ee/RIDHIKA_JOSHI" target="_blank">Linktree</a></span> -->
+        <span id="linktree">
+            
+        <button>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> <a href="https://linktr.ee/RIDHIKA_JOSHI" target="_blank" style="border:0px">Linktree</a>
+          </button></span>
         <br>
         <br>
         <br>
@@ -96,10 +105,9 @@
             <span style="margin-left:100px" class="common">“Strive to build things that makes a difference”</span><br>
             <span  style="margin-left:250px"class="common">-Ridhika Joshi</span>
         </div>
-
-         <div class="image">
-                <img src="a2.png">
-        </div> 
+         <div class="image ">
+                <img src="a2.png" draggable="false"> 
+        </div>
     </section> 
 
     <section id="skills-section">
@@ -127,11 +135,25 @@
                 <div class="skills-border "><img src="https://img.icons8.com/color/96/null/html-5--v1.png"/></div>
                 <div class="skills-border "><img src="https://img.icons8.com/color/96/null/css3.png"/></div>
                 <div class="skills-border"><img src="https://img.icons8.com/color/96/null/javascript--v1.png"/></div>
-                <div class="skills-border"><img src="https://img.icons8.com/nolan/96/git.png"/></div> 
+                 <div class="skills-border"><img src="https://img.icons8.com/nolan/96/git.png"/></div> 
                 <div class="skills-border"><img src="https://img.icons8.com/nolan/96/github.png"/></div>
                 <div class="skills-border" ><img src="https://img.icons8.com/ios-glyphs/90/339AF0/visual-studio.png"/></div>
-
+                <div class="skills-border"><img src="https://img.icons8.com/color/96/null/bootstrap.png"/></div>
             </div>
+            <br>
+
+            <!-- <p id="skills-name"class="general">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span class="common">Tools I use</span>
+            </p>
+            <div id="skills-contain">
+                <div class="skills-border"><img src="https://img.icons8.com/nolan/96/github.png"/></div>
+                <div class="skills-border" ><img src="https://img.icons8.com/ios-glyphs/90/339AF0/visual-studio.png"/></div>
+                <div class="skills-border"><img src="https://img.icons8.com/nolan/96/git.png"/></div>
+                <div class="skills-border"><img src="https://img.icons8.com/color/96/null/bootstrap.png"/></div>
+
+                
+            </div> -->
             <br>
 
                 <p id="skills-name"class="general">
@@ -157,8 +179,8 @@
     <section id="education-section">
         <br>
         <br>
-
-
+        <br>
+        <br>
 
 
         <div class="timeline">
@@ -224,12 +246,51 @@
     <br>
     <br>
     <br>
-    <br>
+
+    <section id="Project-section">
+        <br>
+        <br>
+                <div>
+                    <p id="skills-name">
+                        <span><i class="fa-solid fa-laptop-code"></i></span>
+                        <span class="common">Projects</span>
+                    </p>
+                </div>
+                <div id="project-container">
+                        <div id="project">
+                            <span id="project-name">Portfolio  </span>
+                            <img src="laptop-macbook-computer-work.jpg" draggable="false">
+                            <div id="code-button">
+                                <button class="cssbuttons-io-button">Demo
+                                    <div class="icon">
+                                      <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                                    </div>
+                                  </button>
+
+                                <button class="cssbuttons-io">
+                                    <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path></svg> Code</span>
+                                  </button>
     
+                            </div>
+                        </div>
 
+                        <div id="project">
+                            <span id="project-name">Portfolio  </span>
+                            <img src="laptop-macbook-computer-work.jpg" draggable="false">
+                            <div id="code-button">
+                                <button class="cssbuttons-io-button">Demo
+                                    <div class="icon">
+                                      <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                                    </div>
+                                  </button>
 
-    <section id="resume-section">
-
+                                <button class="cssbuttons-io">
+                                    <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path></svg> Code</span>
+                                  </button>
+    
+                            </div>
+                        </div>
+                </div>
     </section>
 
     <section id="contact-section" > 
@@ -246,13 +307,16 @@
         <div id="contact-body">
 
             <div class="intro general">
-                    <img src="laptop-macbook-computer-work.jpg">
+                    <img src="laptop-macbook-computer-work.jpg" draggable="false">
                     <br>
                     <h3>Ridhika Joshi</h3>
                     <!-- <h4>Passionate Software Developer</h4> -->
                     <br>
-                    <span style="color:white">Connect With Me!</span>
-                    <ul type="none" id="nav" style="left:0.1em">
+                    <!-- <span style="color:white">Connect With Me!</span> -->
+                    <span id="connect">  
+                    <button class="btn">Connect With Me!</button>
+                    </span>
+                    <ul type="none" id="nav" style="left:0.01em">
                         <li> <a href="https://www.linkedin.com/in/ridhika-joshi-069164221/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                         <li> <a href="https://github.com/RidhikaJoshi" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                         <li> <a href="https://twitter.com/ridhika_joshi" target="_blank"><i class="fa-brands fa-twitter"></i></i></a></li>
@@ -286,13 +350,38 @@
                 <textarea style="height:30%; width:80%;border: 2px solid #C16DE9;color:white; background-color: black;border-radius: 8px;"></textarea>
                 <br>
                 <br>
-                <input id="submit"type="submit" name="Submit" id="Submit" >
+                <!-- <input id="submit"type="submit" name="Submit" id="Submit" > -->
+                <span id="submit">
+                <button>
+                    <div class="svg-wrapper-1">
+                      <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Send</span>
+                  </button>
+                </span>
             </form>
 
         </div>
 
 
     </section>
+   
 
+
+
+    <!-- <footer id="footer-section">
+        <span>Designed and Developed by Ridhika Joshi</span>
+        <ul type="none">
+            <li> <a href="https://www.linkedin.com/in/ridhika-joshi-069164221/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li> <a href="https://github.com/RidhikaJoshi" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li> <a href="https://twitter.com/ridhika_joshi" target="_blank"><i class="fa-brands fa-twitter"></i></i></a></li>
+            <li> <a href= "#contact-section"><i class="fa-solid fa-envelope"></i></a><li>
+    </ul>
+    </footer> -->
 </body>
 </html>
