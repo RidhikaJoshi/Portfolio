@@ -59,6 +59,7 @@ body{
 
 #header-section ul{
     float:right;
+    margin-right:20px;
     margin-top:0%;
 }
 
@@ -102,23 +103,39 @@ body{
 }
 @media  (max-width:952)
 {
+    #header-section
+    {
+    height:9vh;
+    width:100%;
+    position:fixed;
+    z-index: 100;
+    }
     #header-section ul li a
     {
         font-size:1.2rem;
     }
     
 }
-@media(max-width:880px)
+@media(max-width:800px)
 {
     .checkbtn{
         display:block;
+        margin-right:50px;
     }
+    #header-section
+    {
+    height:8vh;
+    width:100%;
+    position:fixed;
+    z-index: 100;
+    }
+
     #header-section ul
     {
         position:fixed;
         width:11em;
         height:20em;
-        margin-top: 2%;
+        margin-top: 0%;
         margin-left: 0%;
         background-image: url("jeremy-perkins-FsK54FVNRfM-unsplash.jpg");
         background-repeat: repeat;
@@ -143,7 +160,19 @@ body{
     }
 }
 
-
+#home-section {
+   height:38em; 
+  }
+  
+#home-section .content {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    /* background: rgb(0, 0, 0); Fallback color
+    background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    /* padding: 20px; Some padding */
+  }
 
 #name{
     font-family:Quicksand;
@@ -368,8 +397,13 @@ body{
 .image img{
     height:70vh;
     width:17em;
-    border:8px solid white;
-    border-radius:5px ;
+    border-radius: 4%;
+    border-color:#C16DE9 ;
+    border-width: 2.5px;
+    border-style: solid;
+    box-shadow:0px 0px 20px white;
+    /* border:8px solid white;
+    border-radius:5px ; */
     /* border-radius: 50%; */
 }
 @media(max-width:1300px)
@@ -986,11 +1020,21 @@ body{
 .form
 { 
      height:34em;
-    width:20em;
+    width:18em;
     margin:1em 1em 3em;
     border-radius: 4%;
     padding:0.9em; 
     box-shadow: 0px 0px 10px white;
+}
+
+.form  input {
+    text-align: center;
+    color:white;
+    width:18rem;
+    height:1.8rem;
+    background-color:black;
+    border: 2px solid #C16DE9;
+    border-radius: 8px;
 }
 }
 
