@@ -473,7 +473,7 @@ body{
         height:2px;
         vertical-align:baseline;
         margin-top:5%;
-        margin-left:5%; 
+        margin-left:13%; 
          flex-wrap: wrap;
     
     }
@@ -516,7 +516,7 @@ body{
     color:white;
     font-family:Quicksand;
     letter-spacing:0.01em;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight:6em;
     /* overflow-wrap: break-word; */
 }
@@ -1019,7 +1019,7 @@ body{
     
 .form
 { 
-     height:34em;
+     height:36em;
     width:18em;
     margin:1em 1em 3em;
     border-radius: 4%;
@@ -1193,45 +1193,31 @@ body{
    .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
    }
-
-/* 
+ 
 #footer-section
 {
-    height:4em;
+    height:5em;
     width:100%;
-    background-color: transparent;
-    margin-bottom: 0%;
-    display:flex;
-    flex-wrap: wrap;
+    /* background-color: #C16DE9; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
 }
 
-#footer-section span
+#footer-section span{
+  color:#C16DE9;
+  font-size:x-large;
+}
+
+@media(max-width:800px)
 {
-    text-align:center;
-    justify-content: center;
-    flex-direction:column ;
-    font-size:1em;
-    margin-left:10em;
-    color:white;
-    font-family: Quicksand;
+    #footer-section span
+    {
+        font-size:large;
+    }
 }
-
-#footer-section ul
+#code-button a
 {
-   display: inline-block;
-    flex-direction: column;
+    text-decoration: none;
 }
-
-#footer-section ul li{
-    text-align:center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding:0.7em;
-}
-
-#footer-section ul li a{
-    text-transform: none;
-    color:white;
-} */
