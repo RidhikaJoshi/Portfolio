@@ -1061,6 +1061,12 @@ body{
     display:flex;
     flex-direction: column;
 }
+@media (max-width: 700px) {
+    #project {
+        height: 20em;
+        /* Adjust the margin for smaller screens */
+    }
+}
 
 #project img{
     /* height:15em;
